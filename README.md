@@ -23,3 +23,5 @@ Promisses
           automated class recording lib. 
           chat
   5.      APP devlopment (andriod/IOS)
+
+  6.       Testing
