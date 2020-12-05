@@ -2,10 +2,12 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-//require('dotenv').config;
+require('dotenv').config();
 
 
-mongoose.connect("mongodb+srv://acharya-user:pass@acharya-proj.yexwh.mongodb.net/acharya-proj?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true}, function(err){ console.log("connected to database!")});
+
+//mongoose.connect("mongodb+srv://acharya-user:pass@acharya-proj.yexwh.mongodb.net/acharya-proj?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true}, function(err){ console.log("connected to database!")});
+mongoose.connect("mongodb+srv://"+ process.env.MONGO_ATLAS_USER +":"+ process.env.MONGO_ATLAS_PW +"@acharya-proj.yexwh.mongodb.net/"+ process.env.MONGO_ATLAS_DBNAME +"?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true}, function(err){ console.log("connected to database!")});
 mongoose.Promise = global.Promise;
 
 app.use(bodyParser.urlencoded({extended : false}));

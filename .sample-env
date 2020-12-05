@@ -1,0 +1,4 @@
+// mongoose connection keys. use as .env file
+MONGO_ATLAS_PW =
+MONGO_ATLAS_USER =
+MONGO_ATLAS_DBNAME = 
