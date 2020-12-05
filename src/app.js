@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 require('dotenv').config();
 
+const userRoutes = require('../routes/user');
+
 
 
 //mongoose.connect("mongodb+srv://acharya-user:pass@acharya-proj.yexwh.mongodb.net/acharya-proj?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true}, function(err){ console.log("connected to database!")});
@@ -30,6 +32,7 @@ app.use(function(req, res, next){
     next();
 
 });
+app.use('/users',userRoutes);
 
 app.get('/', function(req, res, next){
     res.status(200).json({"E-learn":"Fury"});
