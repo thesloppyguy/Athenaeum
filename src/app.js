@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 //require('dotenv').config;
 
 
-mongoose.connect('mongodb+srv://acharya-user:acharya@cluster0.vtknj.mongodb.net/Cluster0?retryWrites=true&w=majority',{ useNewUrlParser: true ,  useUnifiedTopology: true  });
+mongoose.connect("mongodb+srv://acharya-user:pass@acharya-proj.yexwh.mongodb.net/acharya-proj?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true}, function(err){ console.log("connected to database!")});
 mongoose.Promise = global.Promise;
 
 app.use(bodyParser.urlencoded({extended : false}));
