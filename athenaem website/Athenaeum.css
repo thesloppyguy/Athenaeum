@@ -454,14 +454,6 @@
   margin: 28px 30px 0;
 }
 
-.u-section-4 .u-social-icons-1 {
-  white-space: nowrap;
-  height: 26px;
-  min-height: 16px;
-  width: 164px;
-  min-width: 124px;
-  margin: 20px auto 0 30px;
-}
 
 .u-section-4 .u-icon-1 {
   height: 100%;
@@ -496,10 +488,6 @@
     margin-left: 12px;
     margin-right: 12px;
   }
-
-  .u-section-4 .u-social-icons-1 {
-    margin-left: 12px;
-  }
 }
 
 @media (max-width: 991px) {
@@ -520,9 +508,7 @@
     margin-right: 9px;
   }
 
-  .u-section-4 .u-social-icons-1 {
-    margin-left: 9px;
-  }
+
 }
 
 @media (max-width: 767px) {
@@ -549,9 +535,7 @@
     margin-right: 15px;
   }
 
-  .u-section-4 .u-social-icons-1 {
-    margin-left: 15px;
-  }
+
 }
 
 @media (max-width: 575px) {
@@ -565,7 +549,118 @@
     margin-right: 9px;
   }
 
-  .u-section-4 .u-social-icons-1 {
-    margin-left: 9px;
-  }
+
 }
+
+
+
+/*new shit from here */
+
+.foam-box{
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background:#fff;
+  padding: 5px;
+  overflow: hidden;
+}
+.button-box{
+  width: 300px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+.toggle-button{
+  color: black;
+  padding: 10px 35px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn{
+  top:0;
+  left:0;
+  position: absolute;
+  width: 160px;
+  height: 100%;
+  background: rgba(114, 239, 233, 0.8);
+  border-radius: 30px;
+  transition: .5s;
+}
+.input-group{
+  color: black;
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: rgba(114, 239, 233, 0.8);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.check-box{
+  margin: 30px 10px 25px 0;
+}
+span{
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+#login{
+  left: 50px;
+}
+#signup{
+  left: 450px;
+}
+
+#exit-popup{
+  width: 15px;
+  height: 15px;
+  left: auto;
+  top: 5px;
+  position: absolute;
+  right: 5px;
+}
+.email{
+  color: blue;
+  margin-left: 32px;
+  position: relative;
+}
+
+.email-name{
+  margin-left: 32px;
+  color: #777;
+  font-weight: bold;
+}
+
+.social-icons{
+  margin:20px auto;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+
