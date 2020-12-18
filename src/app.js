@@ -3,8 +3,11 @@ const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 require('dotenv').config();
+//test
+console.log(process.env.MONGO_ATLAS_PW);
 
 const userRoutes = require('../routes/user');
+const fileRoutes = require('../routes/file');
 
 
 
@@ -33,6 +36,7 @@ app.use(function(req, res, next){
 
 });
 app.use('/users',userRoutes);
+app.use('/pdf',fileRoutes);
 
 app.get('/', function(req, res, next){
     res.status(200).json({"E-learn":"Fury"});
