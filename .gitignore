@@ -1,3 +1,5 @@
 # dependencies
 /node_modules
 .env
+#ignore media but keep folder
+src/stream/*
