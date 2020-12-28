@@ -1,0 +1,215 @@
+.u-section-1 {
+  background-image: url("{{url_for('static' ,filename='images/asdasd.png')}}");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 886px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 375px;
+  min-height: 214px;
+  box-shadow: -11px -8px 20px 0 rgba(0,0,0,0.4);
+  margin: 61px auto 0 -37px;
+}
+
+.u-section-1 .u-image-1 {
+  background-image: url("{{url_for('static' ,filename='images/d2f0dcd0f795d546a03c932df1b6613f-history-banner.jpg')}}");
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 0;
+}
+
+.u-section-1 .u-image-2 {
+  width: 375px;
+  min-height: 215px;
+  background-image: url("{{url_for('static' ,filename='images/english-word-education-banner_66675-157.jpg')}}");
+  box-shadow: 5px -10px 20px 0 rgba(0,0,0,0.4);
+  margin: -213px auto 0;
+}
+
+.u-section-1 .u-image-3 {
+  background-image: url("{{url_for('static' ,filename='images/english-word-education-banner_66675-157.jpg')}}");
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-group-3 {
+  width: 375px;
+  min-height: 215px;
+  background-size: auto 110%;
+  box-shadow: 11px -8px 20px 0 rgba(0,0,0,0.4);
+  margin: -217px -38px 0 auto;
+}
+
+.u-section-1 .u-image-4 {
+  background-image: url("{{url_for('static' ,filename='images/index.png')}}");
+  background-position: 57.39% 0%;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-5 {
+  width: 375px;
+  min-height: 205px;
+  background-size: auto 110%;
+  box-shadow: -11px 5px 20px 0 rgba(0,0,0,0.4);
+  background-image: url("{{url_for('static' ,filename='images/biology-online-learning-concept-biological-260nw-1695267574.webp')}}");
+  background-position: 14.39% 0%;
+  margin: 62px auto 0 -35px;
+}
+
+.u-section-1 .u-image-6 {
+  background-image: url("{{url_for('static' ,filename='images/biology-online-learning-concept-biological-260nw-1695267574.webp')}}");
+  background-position: 14.39% 0%;
+}
+
+.u-section-1 .u-container-layout-4 {
+  padding: 30px;
+}
+
+.u-section-1 .u-group-5 {
+  width: 375px;
+  min-height: 215px;
+  margin: -207px auto 0;
+}
+
+.u-section-1 .u-image-7 {
+  background-image: url("{{url_for('static' ,filename='images/stock-vector-business-studies-concept-thin-line-banner-design-flat-style-426288796.jpg')}}");
+}
+
+.u-section-1 .u-container-layout-5 {
+  padding: 30px;
+}
+
+.u-section-1 .u-group-6 {
+  width: 375px;
+  min-height: 215px;
+  box-shadow: 11px 8px 20px 0 rgba(0,0,0,0.4);
+  margin: -215px -38px 0 auto;
+}
+
+.u-section-1 .u-image-8 {
+  background-image: url("{{url_for('static' ,filename='images/68350787-line-web-concept-for-computer-science-banner-for-education-open-path-.jpg')}}");
+}
+
+.u-section-1 .u-container-layout-6 {
+  padding: 30px;
+}
+
+.u-section-1 .u-group-7 {
+  width: 375px;
+  min-height: 215px;
+  box-shadow: 11px 8px 20px 0 rgba(0,0,0,0.4);
+  margin: 60px auto 0;
+}
+
+.u-section-1 .u-image-9 {
+  background-image: url("{{url_for('static' ,filename='images/istockphoto-636223388-1024x1024.jpg')}}");
+}
+
+.u-section-1 .u-container-layout-7 {
+  padding: 30px;
+}
+
+.u-section-1 .u-group-8 {
+  width: 375px;
+  min-height: 215px;
+  background-size: 155%;
+  box-shadow: -11px 8px 20px 0 rgba(0,0,0,0.4);
+  margin: -215px auto 60px -37px;
+}
+
+.u-section-1 .u-image-10 {
+  background-image: url("{{url_for('static' ,filename='images/OIP.png')}}");
+  background-position: 52.59% 17.36%;
+}
+
+.u-section-1 .u-container-layout-8 {
+  padding: 30px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 731px;
+  }
+
+  .u-section-1 .u-group-3 {
+    background-position: 57.39% 0%;
+  }
+
+  .u-section-1 .u-group-8 {
+    background-position: 52.59% 17.36%;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 560px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 420px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-7 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-8 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 264px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-group-5 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-group-7 {
+    width: 340px;
+  }
+}
