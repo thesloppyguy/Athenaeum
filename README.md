@@ -24,6 +24,7 @@ Athenaeum can be divided into 4 sections for better in-depth understanding of al
                   Super Fast Support
                   Better Streaming and Recording Quality
 
+
 3. Classroom Area :-
       This acts as the hub for all the other aspects of our website such as:-
        a. Classes
@@ -31,6 +32,8 @@ Athenaeum can be divided into 4 sections for better in-depth understanding of al
        c. Notes
        d. Assignments
        e. Result Reports
+
+
 4. Specification :- 
       Since all the processing is done on our side the user both teacher and student would only need an internet connection and a browser. It has been made easy and readily available everyone in this day and age to cover the maximum possible demographic of our potential market.
 
