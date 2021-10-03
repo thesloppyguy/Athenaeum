@@ -1,25 +1,40 @@
 # E-Learning
 
-Promisses
-  1.      Forum (P1)
-          search  
-          login and profile
-          Q&A(global)
-          rewarded points
-          image integration ( imgur )
-          easy to write maths expression
-          easy diagram
-       
-  2.      Integrated File System (P2)
-          Accounts will be synced with their google accounts
-          subject wise doc
-          
-  3.      Automated Evaluation (ML) (P3)
-          MCQ format tests
-          direct evaluation
-          
-  4.      online classes (P2)
-          login and profile (same as forum)
-          automated class recording lib. 
-          chat
-  5.      APP devlopment (andriod/IOS)
+Athenaeum can be divided into 4 sections for better in-depth understanding of all the basic features it provides:-
+
+1.Forum :-
+      The forum consists of a very versatile notes and Q&A sharing system among the participants. The participants will get rewarded points similar to reddit’s karma system. Which   incentivizes the participants to be more interactive and helpful towards each other.
+
+2.Products :-
+      These are the some of most popular modes of subscription we provide institutions to opt.They can further customise by getting in contact with us.
+      a. Basic-
+                Online Interactive Classes
+                Localized Server
+                100GB Limitation
+                Limited Customization
+      b. Standard-
+                  Integrated File System
+                  Automated Evaluation
+                  Automatic Class Recoding
+                  500GB Limit
+                  Full Customization
+      c. Premium-
+                  AWS servers
+                  Unlimited Storage
+                  Super Fast Support
+                  Better Streaming and Recording Quality
+
+3. Classroom Area :-
+      This acts as the hub for all the other aspects of our website such as:-
+       a. Classes
+       b. Videos
+       c. Notes
+       d. Assignments
+       e. Result Reports
+4. Specification :- 
+      Since all the processing is done on our side the user both teacher and student would only need an internet connection and a browser. It has been made easy and readily available everyone in this day and age to cover the maximum possible demographic of our potential market.
+
+
+ 
+                
+      
